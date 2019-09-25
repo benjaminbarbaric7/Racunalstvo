@@ -1,0 +1,29 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+int ispis (int a, int b)
+{
+    int x;
+    if (a<b) 
+             x=a;
+     else x=b;
+     return x;
+     }     
+
+int main()
+{
+    int a, b;
+    cout<<"Unesite dva broja: "<<endl;
+    cin>>a;
+    cout<<endl;
+    cin>>b;
+    cout<<endl;
+    
+    int x=ispis(a,b);
+    cout<<"Manji broj je "<<x<<endl;
+    
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
