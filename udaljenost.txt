@@ -1,0 +1,23 @@
+#include<iostream>
+#include <cstdlib>
+#include<cmath>
+using namespace std;
+int main()
+{
+	float x1,y1,x2,y2,pom,d;
+	cout<<"Koordinate tocke A:"<<endl;
+	cout<<"x1= ";
+	cin>>x1;
+	cout<<"y1= ";
+	cin>>y1;
+	cout<<"Koordinate tocke B:"<<endl;
+	cout<<"x2= ";
+	cin>>x2;
+	cout<<"y2= ";
+	cin>>y2;
+	pom=pow((x2-x1),2)+pow((y2-y1),2);
+	d=sqrt(pom);
+	cout<<"Udaljenost tocaka A("<<x1<<","<<y1 <<") i B("<<x2<<","<<y2<<") je "<<d<<endl;
+	system("PAUSE");
+	return 0;
+}
