@@ -1,0 +1,28 @@
+  
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+float *pa;
+float *pb;
+float a,b,c;
+cout<<"Unesi prvi broj: ";	
+cin>>a;
+cout<<endl;
+cout<<"Unesi drugi broj: ";
+cin>>b;
+cout<<endl;
+c=a+b;
+cout<<c;
+cout<<endl;
+pa=&a;
+pb=&b;
+cout<<"a iznosi "<<a<<", b iznosi "<<b<<", a c iznosi "<<c<<"."<<endl;
+cout<<"Adresa varijable a je "<<&a<<", adresa varijable b je "<<pb<<", a adresa varijable c je "<<&c<<"."<<endl;
+				return 0;
+
+
+}
