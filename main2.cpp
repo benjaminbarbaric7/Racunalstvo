@@ -8,7 +8,7 @@ int main()
 	int brojac=0;
 	getline(cin,recenica);
 	for(int i=0; i<=recenica.length(); i++) {
-		if(recenica[i]==' '||recenica[i]=='.'||recenica[i]=='?'||recenica[i]=='!') brojac++;
+		if(recenica[i]==' '||recenica[i]=='.'||recenica[i]=='!')||recenica[i]=='?' brojac++;
 		
 		if(recenica[i]!=' ') cout<<recenica[i];
 		else if (recenica[i]==' ') cout<<", ";
